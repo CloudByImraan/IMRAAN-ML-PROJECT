@@ -1,53 +1,100 @@
-# 🏠 House Price Prediction (Regression Project)
+# 🏠 House Price Prediction (Regression)
 
-## 📌 Project Overview
-This project uses Machine Learning (Linear Regression) to predict housing prices based on various features such as location, income, and housing statistics.
-
----
-
-## 📊 Dataset
-California Housing Dataset containing:
-- Median income
-- Population
-- Number of rooms
-- Location (longitude & latitude)
-- Ocean proximit
+A machine learning project that predicts housing prices using regression techniques and structured datasets.
 
 ---
 
-## 🧹 Data Preprocessing
-- Handled missing values using median imputation
-- Applied one-hot encoding to categorical variables
-- Split data into training and testing sets (80/20)
+## 📌 Overview
+
+This project uses the California Housing dataset to build a model that estimates median house prices based on various features.
+
+---
+
+## 🎯 Objective
+
+To develop a regression model that accurately predicts housing prices from input features.
+
+---
+
+## 📂 Project Structure
+
+```bash
+regression_house_prices/
+│
+├── data/
+│
+├── notebook/
+│   └── regression_house_prices.ipynb
+│
+├── outputs/
+│   ├── plots/
+│   └── models/
+│
+├── README.md
+└── main_README.md
+```
+
+---
+
+## 🔄 Workflow
+
+1. Data Loading
+2. Data Cleaning
+3. Feature Engineering
+4. Train/Test Split
+5. Model Training (Linear Regression)
+6. Model Evaluation
 
 ---
 
 ## 🤖 Model Used
-- Linear Regression
+
+* Linear Regression
 
 ---
 
 ## 📈 Model Evaluation
-- Mean Absolute Error (MAE): ~50,670
-- Root Mean Squared Error (RMSE): ~70,060
-- R² Score: ~0.625
+
+* MAE: ~50,670
+* RMSE: ~70,060
+* R² Score: ~0.625
 
 ---
 
 ## 🧠 Key Insights
-- The model performs moderately well
-- Around 62% of price variation is explained by the features
-- More complex models may improve accuracy
+
+* Model explains ~62% of variance
+* Performance is moderate
+* More advanced models can improve accuracy
 
 ---
 
-## 🚀 Future Improvements
-- Feature engineering (ratios, transformations)
-- Use Random Forest or Gradient Boosting
-- Hyperparameter tuning
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+
+---
+
+## 🎓 What You Will Learn
+
+* Regression modeling
+* Data preprocessing
+* Model evaluation metrics
+* Working with real-world datasets
+
+---
+
+## 🚧 Project Status
+
+✅ Completed
 
 ---
 
 ## 👨‍💻 Author
-Imraan Muhammad Sani  
-Aspiring Cloud Engineer | Software Develop
+
+Imraan Muhammad Sani
+
+---

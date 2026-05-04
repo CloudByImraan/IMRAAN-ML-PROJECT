@@ -1,26 +1,24 @@
-# 📊 Machine Learning Assignment – Regression & Classification Project
+# 📊 Machine Learning Projects – Regression & Classification
 
-## 👨‍🎓 Student
-Imraan Muhammad Sani  
-Aspiring Cloud Engineer | Software Developer  
-NITDA (NCAIR) Intern – Abuja, Nigeria
+A collection of machine learning projects demonstrating end-to-end workflows for both regression and classification tasks using real-world datasets.
 
 ---
 
-# 📌 Project Overview
+## 📌 Overview
 
-This project is part of a Machine Learning assignment that involves building two core supervised learning models:
+This repository showcases two core supervised learning problems:
 
-1. 📈 Regression Model – House Price Prediction  
-2. 🚢 Classification Model – Titanic Survival Prediction  
+* 📈 **Regression** → Predicting house prices
+* 🚢 **Classification** → Predicting Titanic passenger survival
 
-The goal is to demonstrate a full machine learning workflow from data preprocessing to model evaluation.
+Each project follows a complete pipeline from data preprocessing to model evaluation.
 
 ---
 
-# 📁 Project Structure
+## 📂 Project Structure
 
-ML-Assignment/
+```bash
+ML-Projects/
 │
 ├── regression_house_prices/
 │   ├── data/
@@ -34,77 +32,73 @@ ML-Assignment/
 │   ├── outputs/
 │   └── README.md
 │
-└── main_README.md
+└── README.md
+```
 
 ---
 
-# 📊 1. REGRESSION PROJECT – HOUSE PRICE PREDICTION
+## 📈 Regression – House Price Prediction
 
-## 🎯 Objective
-To predict median house prices using features such as income, location, and housing characteristics.
+* Predicts housing prices using structured data
+* Model: Linear Regression
+* Evaluation:
 
-## 🔄 Workflow
-- Data Loading
-- Data Cleaning
-- Exploratory Data Analysis
-- Feature Engineering
-- Model Training (Linear Regression)
-- Evaluation (MAE, RMSE, R² Score)
-
-## 📈 Model Used
-- Linear Regression
+  * MAE
+  * RMSE
+  * R² Score
 
 ---
 
-# 🚢 2. CLASSIFICATION PROJECT – TITANIC SURVIVAL PREDICTION
+## 🚢 Classification – Titanic Survival Prediction
 
-## 🎯 Objective
-To predict whether a passenger survived the Titanic disaster.
+* Predicts survival of passengers
+* Model: Logistic Regression
+* Evaluation:
 
-## 🔄 Workflow
-- Data Loading
-- Data Cleaning
-- EDA (Graphs + Correlation Matrix)
-- Feature Engineering
-- Logistic Regression Model
-- Predictions
-- Evaluation (Confusion Matrix + ROC Curve)
-
-## 📈 Model Used
-- Logistic Regression
+  * Accuracy
+  * Confusion Matrix
+  * ROC Curve
 
 ---
 
-# 🧠 Key Learning Outcomes
+## 🛠️ Tools & Libraries
 
-- Understanding supervised learning (Regression vs Classification)
-- Data preprocessing techniques
-- Feature engineering for real-world datasets
-- Model evaluation metrics interpretation
-- Visualization for insights
-
----
-
-# 🛠️ Tools & Libraries
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
 ---
 
-# 📌 Conclusion
+## 🎓 What You Will Learn
 
-This project demonstrates a complete end-to-end machine learning pipeline covering both regression and classification tasks. It highlights real-world data preprocessing, model building, and evaluation techniques.
+* Difference between regression and classification
+* Data preprocessing techniques
+* Feature engineering
+* Model training and evaluation
+* Data visualization for insights
 
 ---
 
-# 🚀 Future Improvements
+## 🚧 Project Status
 
-- Use advanced models (Random Forest, XGBoost)
-- Hyperparameter tuning
-- Feature importance analysis
-- Deployment using Flask or Streamlit
+✅ Completed (Machine Learning Portfolio Project)
+
+---
+
+## 🔮 Future Improvements
+
+* Use advanced models (Random Forest, XGBoost)
+* Hyperparameter tuning
+* Feature importance analysis
+* Model deployment (Streamlit / Flask)
+
+---
+
+## 👨‍💻 Author
+
+Imraan Muhammad Sani
+
+---
